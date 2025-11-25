@@ -1,0 +1,11 @@
+{
+  "name": "com.thisis72.somtools",
+  "version": "1.0.0",
+  "displayName": "SoMTools",
+  "description": "Collection of tools: Events, ExFunctions, Logs, StringTools",
+  "unity": "6000.0",
+  "author": {
+    "name": "thisis72",
+    "url": "https://github.com/thisis72"
+  }
+}
