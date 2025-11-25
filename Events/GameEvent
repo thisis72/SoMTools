@@ -1,0 +1,14 @@
+using UnityEngine;
+
+namespace SoMTools.Events // 네임스페이스를 사용하면 관리가 더 편합니다
+{
+    // 1. public으로 선언해야 다른 프로젝트에서 보입니다.
+    [CreateAssetMenu(fileName = "New Event", menuName = "SoMTools/Event")] // 2. 우클릭 메뉴 지원
+    public class GameEvent : ScriptableObject
+    {
+        public void Raise()
+        {
+            // ...
+        }
+    }
+}
