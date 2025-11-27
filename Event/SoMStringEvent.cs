@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace SoMTools.Event
 {
     // 유동적 데이터용 문자열 이벤트
-    [CreateAssetMenu(fileName = "New String Event", menuName = "SoMLib/SoMStringEvent (다이나믹 문자열)")]
+    [CreateAssetMenu(fileName = "New String Event", menuName = "SoMTools/Event/SoMStringEvent (다이나믹 문자열)")]
     public class SoMStringEvent : ScriptableObject
     {
         private readonly List<ISoMStringEventListener> listeners = new List<ISoMStringEventListener>();

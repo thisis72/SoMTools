@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace SoMTools.Event
 {
     // 고정 구조체 기반 이벤트
-    [CreateAssetMenu(fileName = "New Fixed Event", menuName = "SoMLIB/SoMFixedEvent (확정된 구조체)")]
+    [CreateAssetMenu(fileName = "New Fixed Event", menuName = "SoMTools/Event/SoMFixedEvent (확정된 구조체)")]
     public class SoMFixedEvent : ScriptableObject
     {
         private readonly List<ISoMFixedEventListener> listeners = new List<ISoMFixedEventListener>();
