@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
 namespace SoMTools.Event
 {
     // 이벤트 테스트용 스크립트
